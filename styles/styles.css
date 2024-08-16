@@ -493,3 +493,48 @@ h1{
 .p-li-footer-span{
    margin-left: 30px;
 }
+
+@media  (min-width : 320px) and (max-width: 800px) { 
+   .grid-col{
+      margin-top: 30px;
+      margin-bottom: 50px;
+      display: grid;
+      grid-template-columns: 500px;
+      gap: 20px;
+   }
+   .col-1{
+         padding: 30px 40px;
+         border: 1px rgb(204 208 212) solid;
+         border-radius: 10px;
+         opacity: 1px;
+         height: 400px;
+   }
+   .ul-brands{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 2px #e5e7eb solid;
+      align-items: center;
+      width: 800px;
+      padding: 10px;
+      height: 120px;
+  }
+}
+
+@media  only screen and (min-width : 1024px){  
+   /* .grid-col{
+      margin-top: 30px;
+      margin-bottom: 50px;
+      display: grid;
+      grid-template-columns: 500px;
+      gap: 20px;
+   }
+   .col-1{
+         padding: 30px 40px;
+         border: 1px rgb(204 208 212) solid;
+         border-radius: 10px;
+         opacity: 1px;
+         height: 400px;
+   } */
+}
+@media screen and (min-width : 1120px){   }
